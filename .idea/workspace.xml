@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c86592-7909-4552-807c-8910309801b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch02/classpath/Classpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/Cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttributeInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ClassReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantPool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantStringInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantUtf8Info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/CpNumeric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/MemberInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/class_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classpath/Classpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classpath/CompositeEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classpath/DirEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classpath/Entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classpath/WildcardEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classpath/ZipEntry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JVMbyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JVMbyPython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/classpath/CompositeEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/classpath/CompositeEntry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/classpath/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/classpath/Entry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/classpath/WildcardEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/classpath/WildcardEntry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/classpath/ZipEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/classpath/ZipEntry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,30 +55,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/python/project/JVMByPython&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Main (1).executor": "Run",
+    "Python.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/python/project/JVMbyPython",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\project\JVMbyPython" />
       <recent name="E:\python\project\JVMbyPython\ch02" />
     </key>
   </component>
@@ -153,8 +165,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ch03/Main.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JVMbyPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1728458375332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch01" />
+    <SUITE FILE_PATH="coverage/JVMbyPython$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1730096468620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
     <SUITE FILE_PATH="coverage/JVMByPython$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1728573786530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
   </component>
 </project>
