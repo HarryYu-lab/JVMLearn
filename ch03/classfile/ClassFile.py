@@ -3,7 +3,7 @@
 *  @Author  ：   HarryYu
 *  @Time    ：   2024/10/28 15:11
 *  @Project :   JVMbyPython
-*  @desc    :   
+*  @desc    :   class文件的结构
 **************************************
 """
 from ch03.classfile.AttributeInfo import AttributeInfo
@@ -11,7 +11,7 @@ from ch03.classfile.ClassReader import ClassReader
 from ch03.classfile.ConstantPool import ConstantPool
 from ch03.classfile.MemberInfo import MemberInfo
 
-class class_file:
+class ClassFile:
     def __init__(self):
         # 魔数
         self.magic = ""
@@ -67,8 +67,8 @@ class class_file:
 
     # 读取并检查版本号，由于采用java1.8的编译器，故支持版本号为45.0~52.0的class文件
     def read_and_check_version(self, class_reader):
-        self.minor_version = int.from_bytes(class_reader.read_uint16(), byteorder='big')
-        self.major_version = int.from_bytes(class_reader.read_uint16(), byteorder='big')
+        self.minor_version = int.from_bytes(class_reader.read_unit16(), byteorder='big')
+        self.major_version = int.from_bytes(class_reader.read_unit16(), byteorder='big')
 
         if self.major_version == 45:
             return
@@ -93,4 +93,4 @@ class class_file:
     # 从常量池中查找接口名
     @property
     def interface_names(self):
-        return [self.constant_pool.get_class_name(cpName) for cpName in self.interface]
+        return [self.constant_pool.get_class_name(cpName) for cpName in self.interfaces]

@@ -6,6 +6,8 @@
 *  @desc    :   常量池类
 **************************************
 """
+
+
 class ConstantPool:
 
     def __init__(self, cp=None):

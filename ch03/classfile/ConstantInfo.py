@@ -3,10 +3,11 @@
 *  @Author  ：   HarryYu
 *  @Time    ：   2024/10/28 16:07
 *  @Project :   JVMbyPython
-*  @desc    :   常量类
+*  @desc    :   常量类，定义各种数据类型
 **************************************
 """
 from abc import ABCMeta, abstractmethod
+
 
 class ConstantInfo(metaclass=ABCMeta):
     # tag 常量值定义
@@ -41,7 +42,7 @@ class ConstantInfo(metaclass=ABCMeta):
         from .CpNumeric import ConstantDoubleInfo, ConstantLongInfo, ConstantFloatInfo, ConstantIntegerInfo
         from .ConstantUtf8Info import ConstantUtf8Info
         from .ConstantStringInfo import ConstantStringInfo
-        from .ConstantMemberRefInfo import ConstantFieldRefInfo, ConstantInterfaceMethodRefInfo, \
+        from .ConstantMemberRefInfo import ConstantFiledRefInfo, ConstantInterfaceMethodRefInfo, \
             ConstantMethodRefInfo
         from .ConstantNameAndTypeInfo import ConstantNameAndTypeInfo
         from .ConstantClassInfo import ConstantClassInfo
@@ -63,7 +64,7 @@ class ConstantInfo(metaclass=ABCMeta):
         elif tag == ConstantInfo.CONSTANT_Class:
             return ConstantClassInfo(constantPool)
         elif tag == ConstantInfo.CONSTANT_FieldRef:
-            return ConstantFieldRefInfo(constantPool)
+            return ConstantFiledRefInfo(constantPool)
         elif tag == ConstantInfo.CONSTANT_MethodRef:
             return ConstantMethodRefInfo(constantPool)
         elif tag == ConstantInfo.CONSTANT_InterfaceMethodRef:

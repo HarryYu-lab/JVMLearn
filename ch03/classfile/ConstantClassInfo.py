@@ -1,24 +1,24 @@
 """
 **************************************
 *  @Author  ：   HarryYu
-*  @Time    ：   2024/10/28 17:20
+*  @Time    ：   2024/10/29 10:32
 *  @Project :   JVMbyPython
-*  @desc    :   表示java.lang.String字面量
+*  @desc    :   表示类或者接口的符号引用
 **************************************
 """
 
 from ch03.classfile.ConstantInfo import ConstantInfo
 
 
-class ConstantStringInfo(ConstantInfo):
+class ConstantClassInfo(ConstantInfo):
     def __init__(self, constant_pool):
         from ch03.classfile.ConstantPool import ConstantPool
         self.cp = ConstantPool(constant_pool)
-        self.string_index = ""
+        self.name_index = 0
 
-    # 读取常量池索引
     def read_info(self, class_reader):
-        self.string_index = int.from_bytes(class_reader.read_unit16(), byteorder="big")
+        self.name_index = int.from_bytes(class_reader.read_unit16(), byteorder="big")
 
-    def __str__(self):
-        return self.cp.get_utf8(self.string_index)
+    @property
+    def name(self):
+        return self.cp.get_utf8(self.name_index)

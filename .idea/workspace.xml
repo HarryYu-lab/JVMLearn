@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c86592-7909-4552-807c-8910309801b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch03/Cmd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttributeInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/ClassReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantPool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantStringInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantUtf8Info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/CpNumeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/MemberInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classfile/class_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classpath/Classpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classpath/CompositeEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classpath/DirEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classpath/Entry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classpath/WildcardEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/classpath/ZipEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrConstantValue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrExceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrLineNumberTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrLocalVariableTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrLocalVariableTypeTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrMarkers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrSourceFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/AttrUnparsed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantClassInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantMemberRefInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/ConstantNameAndTypeInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/classfile/CpInvokeDynamic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JVMbyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JVMbyPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/AttributeInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/AttributeInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/ClassReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/ClassReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/ConstantInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/ConstantInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/ConstantPool.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/ConstantPool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/ConstantStringInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/ConstantStringInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/ConstantUtf8Info.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/ConstantUtf8Info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/CpNumeric.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/CpNumeric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/MemberInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/MemberInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/classfile/class_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/classfile/ClassFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Main (1).executor": "Run",
+    "Python.Main (2).executor": "Run",
     "Python.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +89,7 @@
       <recent name="E:\python\project\JVMbyPython\ch02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main (1)">
+  <component name="RunManager" selected="Python.Main (2)">
     <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JVMbyPython" />
       <option name="ENV_FILES" value="" />
@@ -99,6 +105,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch02/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JVMbyPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main (2)" />
         <item itemvalue="Python.Main (1)" />
       </list>
     </recent_temporary>
@@ -165,20 +195,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ch03/Main.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JVMbyPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1728458375332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch01" />
     <SUITE FILE_PATH="coverage/JVMbyPython$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1730096468620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
+    <SUITE FILE_PATH="coverage/JVMbyPython$Main__2_.coverage" NAME="Main (2) Coverage Results" MODIFIED="1730194365508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/JVMByPython$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1728573786530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
   </component>
 </project>

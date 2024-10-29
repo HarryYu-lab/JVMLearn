@@ -6,8 +6,10 @@
 *  @desc    :   MUTF-9编码的字符串类
 **************************************
 """
-from ch03.classfile.ConstantInfo import  ConstantInfo
+
+from ch03.classfile.ConstantInfo import ConstantInfo
 import ctypes
+
 
 class ConstantUtf8Info(ConstantInfo):
     def __init__(self):

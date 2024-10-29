@@ -3,9 +3,10 @@
 *  @Author  ：   HarryYu
 *  @Time    ：   2024/10/28 14:47
 *  @Project :   JVMbyPython
-*  @desc    :   读取class文件字节
+*  @desc    :   读取class文件字节，多种字节长度
 **************************************
 """
+
 
 class ClassReader:
 
@@ -30,14 +31,19 @@ class ClassReader:
         self.data = self.data[4:]
         return val
 
-    # 读取uint16表
+        # 读取u8类型数据
     def read_unit64(self):
+        val = self.data[:8]
+        self.data = self.data[8:]
+        return val
+
+    # 读取uint16表
+    def read_unit16s(self):
         # 表的大小由开头的uint16数据指出
         n = int.from_bytes(self.read_unit16(), byteorder='big')
         s = []
         for i in range(n):
             s.append(int.from_bytes(self.read_unit16(), byteorder='big'))
-
         return s
 
     # 读取指定数量的字节

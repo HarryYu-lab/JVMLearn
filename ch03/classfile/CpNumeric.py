@@ -17,8 +17,8 @@ class ConstantIntegerInfo(ConstantInfo):
         self.val = 0
 
     # 先读取一个uint32数据，然后把它转型成int32类型
-   def read_info(self, class_reader):
-       bytes_data = int.from_bytes(class_reader.read_uint32(), byteorder='big')
+    def read_info(self, class_reader):
+       bytes_data = int.from_bytes(class_reader.read_unit32(), byteorder='big')
        self.val = ctypes.c_int32(bytes_data).value
 
 
