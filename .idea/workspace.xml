@@ -5,43 +5,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c86592-7909-4552-807c-8910309801b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch04/Cmd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrConstantValue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrExceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrLineNumberTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrLocalVariableTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrLocalVariableTypeTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrMarkers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrSourceFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttrUnparsed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/AttributeInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ClassFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ClassReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantClassInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantMemberRefInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantNameAndTypeInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantPool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantStringInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/ConstantUtf8Info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/CpInvokeDynamic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/CpNumeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classfile/MemberInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classpath/Classpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classpath/CompositeEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classpath/DirEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classpath/Entry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classpath/WildcardEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/classpath/ZipEntry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/Frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/LocalVars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/Object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/OperandStack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/Slot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/Stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/rtda/Thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/Cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/Interpreter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrConstantValue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrExceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrLineNumberTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrLocalVariableTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrLocalVariableTypeTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrMarkers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrSourceFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttrUnparsed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/AttributeInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ClassFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ClassReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantClassInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantMemberRefInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantNameAndTypeInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantPool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantStringInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/ConstantUtf8Info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/CpInvokeDynamic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/CpNumeric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classfile/MemberInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classpath/Classpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classpath/CompositeEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classpath/DirEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classpath/Entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classpath/WildcardEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/classpath/ZipEntry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/Factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/base/BranchLogic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/base/BytecodeReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/base/Instruction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/comparisons/Dcmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/comparisons/Fcmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/comparisons/Ifacmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/comparisons/Ifcond.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/comparisons/Ificmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/comparisons/Lcmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/constants/Const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/constants/Ipush.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/constants/Nop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/control/Goto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/control/Lookupswitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/control/Tableswitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/conversions/D2x.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/conversions/F2x.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/conversions/I2x.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/conversions/L2x.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/extended/Gotow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/extended/Ifnull.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/extended/Wide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/loads/Aload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/loads/Dload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/loads/Fload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/loads/Iload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/loads/Lload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/And.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Div.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Iinc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Mul.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Neg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Or.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Rem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Sh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/math/Xor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stack/Dup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stack/Pop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stack/Swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stores/Astore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stores/Dstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stores/Fstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stores/Istore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/instructions/stores/Lstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/Frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/LocalVars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/Object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/OperandStack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/Slot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/rtda/Thread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +124,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Main (1).executor": "Run",
-    "Python.Main (2).executor": "Run",
+    "Python.Main (2).executor": "Debug",
     "Python.Main (3).executor": "Run",
+    "Python.Main (4).executor": "Run",
     "Python.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -103,7 +152,7 @@
       <recent name="E:\python\project\JVMbyPython\ch02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main (3)">
+  <component name="RunManager" selected="Python.Main (4)">
     <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JVMbyPython" />
       <option name="ENV_FILES" value="" />
@@ -173,6 +222,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JVMbyPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JVMbyPython" />
       <option name="ENV_FILES" value="" />
@@ -198,8 +270,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Main (3)" />
+        <item itemvalue="Python.Main (4)" />
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.Main (2)" />
+        <item itemvalue="Python.Main (3)" />
         <item itemvalue="Python.Main (1)" />
       </list>
     </recent_temporary>
@@ -227,7 +301,10 @@
       <workItem from="1728567093520" duration="5162000" />
       <workItem from="1728573646572" duration="113000" />
       <workItem from="1728573777846" duration="74000" />
-      <workItem from="1730357007088" duration="4479000" />
+      <workItem from="1730357007088" duration="8045000" />
+      <workItem from="1730861425270" duration="2472000" />
+      <workItem from="1730874373080" duration="1463000" />
+      <workItem from="1732757922179" duration="8205000" />
     </task>
     <servers />
   </component>
@@ -236,9 +313,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JVMbyPython$Main__3_.coverage" NAME="Main (3) Coverage Results" MODIFIED="1730363142067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
-    <SUITE FILE_PATH="coverage/JVMbyPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1728458375332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch01" />
+    <SUITE FILE_PATH="coverage/JVMbyPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1732763966550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch01" />
+    <SUITE FILE_PATH="coverage/JVMbyPython$Main__4_.coverage" NAME="Main (4) Coverage Results" MODIFIED="1732773879207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
     <SUITE FILE_PATH="coverage/JVMbyPython$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1730096468620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
-    <SUITE FILE_PATH="coverage/JVMbyPython$Main__2_.coverage" NAME="Main (2) Coverage Results" MODIFIED="1730194401810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
+    <SUITE FILE_PATH="coverage/JVMbyPython$Main__2_.coverage" NAME="Main (2) Coverage Results" MODIFIED="1732763902956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/JVMByPython$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1728573786530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
   </component>
 </project>
